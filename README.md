@@ -15,7 +15,7 @@ Docker 19.03.12 (This is a workspace's version, other versions might be compatia
 
 1. Check your desired state of an image you will create.
 
-    : Grafana version | Proemtheus version / OS version
+    : Grafana version / Proemtheus version / OS version
 
 2. Download a Dockerfile you want(Proemtheus or Grafana)
 
