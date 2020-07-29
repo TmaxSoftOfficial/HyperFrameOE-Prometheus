@@ -18,10 +18,11 @@ Docker 19.03.12 (This is a workspace's version, other versions might be compatia
     : Grafana version / Proemtheus version / OS version
 
 2. Download a Dockerfile you want(Proemtheus or Grafana)
-
+#### 1. Build an Docker Image
 ```bash
 $ docker build -t <create image_name>:<image_version> .
 ```
+#### 2. Generate a Container from Image
 ```bash
 # Prometheus Default Port : 9090
 # Grafana Default Port : 3000
