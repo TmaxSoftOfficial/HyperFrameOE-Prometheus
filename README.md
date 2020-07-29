@@ -16,7 +16,7 @@ Docker 19.03.12 (This is a workspace's version, other versions might be compatia
 
     : Proemtheus version / OS version
 
-2. Download a Dockerfile you want(Proemtheus or Grafana)
+2. Download a Dockerfile you want
 #### 1. Build an Docker Image
 ```bash
 $ docker build -t <create image_name>:<image_version> .
