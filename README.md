@@ -1,4 +1,4 @@
-# Prometheus
+# HyperFrameOE-Prometheus
 
 This is a group of Prometheus Docker files with versions for HyperFrame Open Edition.
 
