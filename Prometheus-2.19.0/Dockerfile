@@ -1,7 +1,7 @@
 FROM centos:7
 # version 20.0
 
-#MAINTAINER MW2-1@tamx.co.kr
+#MAINTAINER MW2-1@tmax.co.kr
 
 #0) Set SOURCE_PATH and PROMETHEUS_FOLDER/VERSION
 ENV SOURCE_PATH /usr/local/src
