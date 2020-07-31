@@ -1,28 +1,29 @@
 # HyperFrameOE-Prometheus
 
-This is a group of Prometheus Docker files with versions for HyperFrame Open Edition.
+This Prometheus docker file is for HyperFrame Open Edition.
 
 ### Prerequisites
 
-Docker 19.03.12 (This is a workspace's version, other versions might be compatiable with this.)
+Docker 19.03.12 (Workspace version, recommended)
 
-### Set up Info
-1) OS : CentOS 7
-2) Prometheus : Prometheus 2.19.0
+### Requirements
 
-### Installing
+1) OS: CentOS 7
+2) Prometheus: Prometheus 2.19.0
 
-#### 1. Download a Dockerfile you want
+### Installation Steps
 
-#### 2. Build an Docker Image
+#### 1. Download Dockerfile.
+
+#### 2. Build a Docker Image.
 ```bash
 $ docker build -t <create image_name>:<image_version> .
 ```
-#### 3. Generate a Container from Image(Prometheus Default Port : 9090)
+#### 3. Generate a Container from the Image. (Default port number: 9090)
 ```bash
 $ docker run  -itd -p <Host_Port>:<Default_Port> <image_name>:<image_version> --name <container_name> --privileged -v /sys/fs/cgroup:/sys/fs/cgroup /usr/sbin/init
 ```
 
-## License
+### License
 
-This project is licensed under the Apache-2.0
+Projects are licensed under the Apache 2.0 license.
