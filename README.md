@@ -12,17 +12,13 @@ Docker 19.03.12 (This is a workspace's version, other versions might be compatia
 
 ### Installing
 
-#### 1. Check your desired state of an image you will create.
+#### 1. Download a Dockerfile you want
 
-    : Proemtheus version / OS version
-
-#### 2. Download a Dockerfile you want
-
-#### 3. Build an Docker Image
+#### 2. Build an Docker Image
 ```bash
 $ docker build -t <create image_name>:<image_version> .
 ```
-#### 4. Generate a Container from Image(Prometheus Default Port : 9090)
+#### 3. Generate a Container from Image(Prometheus Default Port : 9090)
 ```bash
 $ docker run  -itd -p <Host_Port>:<Default_Port> <image_name>:<image_version> --name <container_name> --privileged -v /sys/fs/cgroup:/sys/fs/cgroup /usr/sbin/init
 ```
