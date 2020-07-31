@@ -1,8 +1,6 @@
 FROM centos:7
 # version 20.0
 
-#MAINTAINER MW2-1@tmax.co.kr
-
 #0) Set SOURCE_PATH and PROMETHEUS_FOLDER/VERSION
 ENV SOURCE_PATH /usr/local/src
 ENV PROMETHEUS_FOLDER prometheus-2.19.0.linux-amd64
